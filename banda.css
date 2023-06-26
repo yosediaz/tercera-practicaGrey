@@ -1,0 +1,29 @@
+
+/*Color de fondo de la página*/
+body {
+    background-color: rgb(204, 197, 197);
+}
+
+
+/*Diseño de secciones*/
+h2 {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: darkred;
+}
+
+
+p {
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    text-align: justify;
+}
+
+/*Estilo pie de la página*/
+.pie {
+    font-size: medium;
+    font-family: Arial, Helvetica, sans-serif;
+    color: darkslategray;
+}
+
+footer {
+    background-color: indianred;
+}

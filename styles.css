@@ -1,0 +1,111 @@
+
+/*logo del navegador*/
+#logo {
+    display: inline-block;
+    vertical-align: middle;
+    width: 70px;
+    padding-right: 50px;  
+}
+
+/*Barra de navegación*/
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 10px;
+    overflow: hidden;
+    background-color: rgb(2, 19, 13);
+    
+}
+
+li {
+    float: left;
+}
+
+li a {
+    display: block;
+    color: rgb(245, 242, 242);
+    text-align: right;
+    text-decoration: none;
+    font-size: 20px;
+    line-width: 10px;
+    margin-right: 230px;
+    margin-left: 100;
+    float: right;
+}
+    
+    
+
+
+li a:hover {
+    background-color: cadetblue;
+}
+
+
+/*fondo del home*/
+
+div{
+    background-image: url(grayspag.jpg);
+
+    height: 100vh;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    opacity: 0.9;
+    margin-top: -20px;
+    padding-top: 0px;
+    
+}
+
+    
+
+/*Diseño del main:  titulo*/
+h1 {
+    text-align: center;
+    width: 500px;
+    padding-top: 150px;
+    padding-left: 150px;
+    font-family: cursive;
+    color: darkred;
+    font-size: 50px;
+}
+
+/*Diseño del main: parrafo*/
+#fuente {
+    text-align: center;
+    width: 500px;
+    padding-top: 150px;
+    padding-left: 150px;
+    font-size: 20px;
+    font-family: cursive;
+    color: rgb(131, 18, 18);
+
+}
+
+/*Diseño de secciones*/
+h2 {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: darkred;
+}
+
+h3 {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: darkred;  
+}
+
+p {
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    text-align: justify;
+    color: darkred;
+}
+
+/*Estilo pie de la página*/
+.pie {
+    font-size: medium;
+    font-family: Arial, Helvetica, sans-serif;
+    color: darkslategray;
+}
+
+footer {
+    background-color: indianred;
+}
